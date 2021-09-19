@@ -312,22 +312,22 @@ def sleepy(): # Returns what to tell the user when the display shows the sleepy 
     #joke Loops for specific types
 
     if Joke == "pun":
-        pun = random.choice(["Why Couldn't The bike Stand on it's own? It was Two Tired!", "Whoever Stole My Copy of Microsoft Office is in Big Trouble! You got my word!", "Need an ark? I Noah Guy!", "Frog Parking Only! Any one else will be toad away.", "Renewable Energy? I'm a big Fan!", "Becoming a vegetarian is a huge missed steak!", "Have you ever eight a clock? It's so time-consuming!"])
+        pun = random.choice(["Why Couldn't The bike Stand on\n it's own? It was Two Tired!", "Whoever Stole My Copy of Microsoftn\ Office is in Big Trouble!\n You got my word!", "Need an ark? I Noah Guy!", "Frog Parking Only! \nAny one else will be toad away.", "Renewable Energy?\n I'm a big Fan!", "Becoming a vegetarian is a\n huge missed steak!", "Have you ever eight a clock?\n It's so time-consuming!"])
         return(str(pun))
 
 
     elif Joke == "bar_joke":
-        bar = random.choice(["'Poor Old fool,' thought the well-dressed gentleman as he watched an old man fish in a puddle outside a pub. So he invited the old man inside for a drink. As they sipped their whiskeys, the gentleman thought he'd humor the old man and asked, 'So how many have you caught today?' The old man replied, 'Your the eighth", "Infinitely many mathematicians walk into a bar. The first says, 'I'll have a beer.' The second says, 'I'll have half a beer.' The third says, 'I'll have a quarter of a beer.' Before anyone else can speak, the barman fills up exactly two glasses of beer and serves them. 'Come on, now,' he says to the group, 'You guys have got to learn your limits.'", "At an all-you-can-eat buffet, my nine-year-old was excited to find a chocolate milk machine. But her aunt did not approve. 'Chocolate milk for dinner?' she asked. 'It's delicious!' said my daughter. Her aunt shrugged. 'Well, its 8 a.m. somewhere.'", "The barman says, 'We don’t serve time travelers in here.' A time traveler walks into a bar."])
+        bar = random.choice(["'Poor Old fool,' thought the well-dressed \ngentleman as he watched an old man\n fish in a puddle outside \na pub. So he invited the old man inside for a drink. As they sipped their whiskeys, the gentleman thought he'd humor the old man and asked, 'So how many have you caught today?' The old man replied, 'Your the eighth", "Infinitely many mathematicians walk into a bar. The first says, 'I'll have a beer.' The second says, 'I'll have half a beer.' The third says, 'I'll have a quarter of a beer.' Before anyone else can speak, the barman fills up exactly two glasses of beer and serves them. 'Come on, now,' he says to the group, 'You guys have got to learn your limits.'", "At an all-you-can-eat buffet, my nine-year-old was excited to find a chocolate milk machine. But her aunt did not approve. 'Chocolate milk for dinner?' she asked. 'It's delicious!' said my daughter. Her aunt shrugged. 'Well, its 8 a.m. somewhere.'", "The barman says, 'We don’t serve time travelers in here.' A time traveler walks into a bar."])
         return(str(bar))
 
         
     elif Joke == "knock_knock":
-        knock_knock = random.choice(["'Knock-Knock!' 'Who's There?' 'Control Freak' 'Con-' 'Now you say Control Freak Who.'", "'Knock-Knock!' 'Who's There?' 'Ho-Ho' 'Ho-Ho Who?' 'You could use a little work on your santa impression.'", "'Knock-Knock!' 'Who's There?' 'Santa' 'Santa Who?' 'I santa email I'd be here and I'm still waiting out in the cold!'", "'Knock-Knock!' 'Who's there?' 'Snow' 'Snow Who?' 'Snow Use! I forgot my name again.'"])
+        knock_knock = random.choice(["'Knock-Knock!' 'Who's There?' 'Control Freak' 'Con-' 'Now you say Control \nFreak Who.'", "'Knock-Knock!' 'Who's There?' 'Ho-Ho' 'Ho-Ho Who?' 'You could use a little \nwork on your santa impression.'",\n "'Knock-Knock!' 'Who's There?'\n 'Santa' 'Santa Who?'\n 'I santa email I'd be here and \nI'm still waiting out in the cold!'", "'Knock-Knock!'\n 'Who's there?'\n 'Snow' 'Snow Who?' 'Snow Use! I forgot \nmy name again.'"])
         return(str(knock_knock))
 
         
     elif Joke == "dumb_funny":
-        reg = random.choice(["Client: Please remove the unnecessary circle at the end of the sentence.  Me: You mean … the period?  Client: I don’t care what you designers call it; it is unsightly. Delete it.", "When asked for his name by the coffee shop clerk, my brother-in-law answered, 'Marc, with a C.' Minutes later, he was handed his coffee with his name written on the side: Cark.", "An insurance agent called our medical office. One of our doctors had filled out a medically necessary leave-of-absence form for a patient, but, the agent said, the patient had altered it. The giveaway? The return-to-work date had been changed to February 30.", "A defendant isn't happy with how things are going in court, so he gives the judge a hard time.  Judge: 'Where do you work?'  Defendant: 'Here and there.'  Judge: 'What do you do for a living?'  Defendant: 'This and that.'  Judge: 'Take him away.'  Defendant: 'Wait; when will I get out?'  Judge: 'Sooner or later.'", "A first-grade teacher can’t believe her student isn’t hepped up about the Super Bowl. 'It’s a huge event. Why aren’t you excited?'   'Because I’m not a football fan. My parents love basketball, so I do too,' says the student.  'Well, that’s a lousy reason,' says the teacher. 'What if your parents were morons? What would you be then?'  'Then I’d be a football fan.'", "While on patrol, I arrested a burglar who’d injured himself running from a home. He told me he’d broken in and unhooked the phone before searching for valuables. But he’d panicked when he heard a woman’s voice. I entered the house and heard the same voice: “If you’d like to make a call, please hang up and try your call again.”"])
+        reg = random.choice(["Client: Please remove the unnecessary \ncircle at the end of the sentence.\n  Me: You mean … the period? \n Client: I don’t care what you designers\n call it; it is unsightly.\n Delete it.", "When asked for his name by the \ncoffee shop clerk, my \nbrother-in-law answered, \n'Marc, with a C.' \nMinutes later, he was handed \nhis coffee with his name written \non the side: Cark.", "An insurance agent \ncalled our medical office.\n One of our doctors had filled out a medically \nnecessary leave-of-absence form for\n a patient, but, the agent \nsaid, the patient had\n altered it. The giveaway? The \nreturn-to-work date had been changed to February 30.", "A defendant isn't happy \nwith how things are going in\n court, so he gives the\n judge a hard time.  Judge: 'Where do you\n work?'  Defendant: 'Here and\n there.'  Judge: 'What do you do for a living?'  Defendant: 'This and that.'  \nJudge: 'Take him away.'  \nDefendant: 'Wait; when will I get out?'\n  Judge: 'Sooner or later.'", "A first-grade \nteacher can’t believe her\n student isn’t hepped up about the\n Super Bowl. 'It’s a huge event. Why aren’t\n you excited?'   'Because I’m not a \nfootball fan. My parents \nlove basketball, so I do too,' says \nthe student.  'Well, that’s a lousy reason,' says the teacher. 'What if your parents \nwere morons? What would you be\n then?'  'Then \nI’d be a football fan.'", "While on patrol, I arrested a burglar\n who’d injured himself running from \n a home. He told me he’d \nbroken in and unhooked the phone before searching for valuables. But he’d panicked when he heard \na woman’s voice. I entered the house\n and heard the same voice: “If you’d like\n to make a call, please hang \nup and try your call again.”"])
         return(str(reg))
 
   randomchoice = random.randint(1, 3) # Pick a random number between 1 and 3
@@ -372,14 +372,14 @@ def walk(): # Returns what to tell the user when they receive a request for a wa
   title = M5Label('Activity request from', x=28, y=0, color=0x000, font=FONT_MONT_22, parent=None)
   label0 = M5Label('another device', x=62, y=24, color=0x000, font=FONT_MONT_22, parent=None)
   label1 = M5Label('Another device has ', x=153, y=60, color=0x000, font=FONT_MONT_14, parent=None)
-  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xFFFFFF, text_c=0x000000, font=FONT_MONT_14, parent=None)
+  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
   activity = M5Label('a walk', x=230, y=80, color=0x000, font=FONT_MONT_14, parent=None)
   label2 = M5Label('requested', x=153, y=80, color=0x000, font=FONT_MONT_14, parent=None)
   label3 = M5Label('A link to your nearest', x=144, y=113, color=0x000, font=FONT_MONT_14, parent=None)
   label4 = M5Label('park has been', x=142, y=130, color=0x000, font=FONT_MONT_14, parent=None)
   label5 = M5Label('sent to your phone', x=143, y=146, color=0x000, font=FONT_MONT_14, parent=None)
   image0 = M5Img("res/walking.png", x=14, y=75, parent=None)
-  
+  response = urequests.post("http://maker.ifttt.com/trigger/walk/with/key/" + URL)
   while True: # Repeat forever
     if (continuebtn.get_state()) == True: # If the continuebtn is pressed go back to the homepage
       title.set_hidden(True)
@@ -433,7 +433,7 @@ def game(): # Returns what to tell the user when they receive a request for an o
   title = M5Label('Activity request from', x=28, y=0, color=0x000, font=FONT_MONT_22, parent=None)
   label0 = M5Label('another device', x=62, y=24, color=0x000, font=FONT_MONT_22, parent=None)
   label1 = M5Label('Another device has ', x=153, y=57, color=0x000, font=FONT_MONT_14, parent=None)
-  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xFFFFFF, text_c=0x000000, font=FONT_MONT_14, parent=None)
+  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
   activity = M5Label('to play', x=229, y=69, color=0x000, font=FONT_MONT_14, parent=None)
   label2 = M5Label('requested', x=153, y=69, color=0x000, font=FONT_MONT_14, parent=None)
   label3 = M5Label(' A link to an online', x=144, y=113, color=0x000, font=FONT_MONT_14, parent=None)
@@ -462,10 +462,10 @@ def game(): # Returns what to tell the user when they receive a request for an o
 def jokeaws(): # Returns what to tell the user when they receive a request for an online game from another device
   global stop, URL # Setup the global variables
   # Setup the items on the display
-  title = M5Label('Activity request from', x=28, y=0, color=0x000, font=FONT_MONT_22, parent=None)
+  title = M5Label('Joke request from', x=28, y=0, color=0x000, font=FONT_MONT_22, parent=None)
   label0 = M5Label('another device', x=62, y=24, color=0x000, font=FONT_MONT_22, parent=None)
   label1 = M5Label('Another device has ', x=153, y=57, color=0x000, font=FONT_MONT_14, parent=None)
-  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xFFFFFF, text_c=0x000000, font=FONT_MONT_14, parent=None)
+  continuebtn = M5Btn(text='Continue', x=243, y=201, w=70, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
   activity = M5Label('to play', x=229, y=69, color=0x000, font=FONT_MONT_14, parent=None)
   label2 = M5Label('requested', x=153, y=69, color=0x000, font=FONT_MONT_14, parent=None)
   label3 = M5Label((joke()), x=144, y=113, color=0x000, font=FONT_MONT_14, parent=None)
@@ -521,7 +521,7 @@ def homescreen(): # The main homescreen of the device
       image1 = M5Img("res/sleepy.png", x=0, y=0, parent=None)
       
     
-      if (currenttime - facechangetime) > 20:
+      if (currenttime - facechangetime) > 60: # Time before it reverts to standard eyes
         emotion = 'eyes'
       
       if sleepyrun == False:
@@ -550,7 +550,7 @@ def homescreen(): # The main homescreen of the device
       image0 = M5Img("res/angry.png", x=0, y=0, parent=None)
       image1 = M5Img("res/angry.png", x=0, y=0, parent=None)
       
-      if (currenttime - facechangetime) > 20:
+      if (currenttime - facechangetime) > 60:
         emotion = 'eyes'
       
       if angryrun == False:
@@ -602,7 +602,24 @@ def homescreen(): # The main homescreen of the device
     time.sleep(2)
     image0.set_hidden(False)
     image1.set_hidden(True)
-    time.sleep(2)
+    
+    if (newtime - start_time) > 7200: # Time before sad emotion is activated in seconds
+      emotion = 'sad'
+      if sadrun == False:
+        newface == True
+        facechangetime = (rtc.datetime()[6]) + ((rtc.datetime()[5]) * 60) + ((rtc.datetime()[4]) * 60 * 60)
+    elif (newtime - start_time) > 10800:  # Time before angry emotion is activated in seconds
+      emotion = 'angry'
+      facechangetime = (rtc.datetime()[6]) + ((rtc.datetime()[5]) * 60) + ((rtc.datetime()[4]) * 60 * 60)
+      if angryrun == False:
+        newface == True
+    elif (newtime - start_time) > 14400: # Time before sleepy emotion is activated in seconds
+      emotion = 'sleepy'
+      facechangetime = (rtc.datetime()[6]) + ((rtc.datetime()[5]) * 60) + ((rtc.datetime()[4]) * 60 * 60)
+      if sleepyrun == False:
+        newface = True
+
+
     
     if (btnA.isPressed()) == True: # If the A button is pressed go to page 4
       image0.set_hidden(True)
@@ -646,26 +663,30 @@ def page1(): # To-do list page
   playbtn3 = M5Btn(text='Play', x=200, y=130, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
   playbtn4 = M5Btn(text='Play', x=200, y=170, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
 
-  def recordbtn1_pressed(): # If the recordbtn1 is pressed then record 5 seconds of audio
-    mic.record2file(5, 'item1.wav') # Record 5 seconds from the microphone to item1.wav
+  def recordbtn1_pressed(): 
+    global recordbtn1# If the recordbtn1 is pressed then record 5 seconds of audio
+    mic.record2file(1, 'item1.wav') # Record 5 seconds from the microphone to item1.wav
     recordbtn1 = M5Btn(text='Recorded', x=110, y=50, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None) # Change the button text to Recorded
     pass
   recordbtn1.pressed(recordbtn1_pressed) # Call the recordbtn1_pressed function when recordbtn1 is pressed
   
   def recordbtn2_pressed():
-    mic.record2file(5, 'item2.wav')
+    global recordbtn2
+    mic.record2file(1, 'item2.wav')
     recordbtn2 = M5Btn(text='Recorded', x=110, y=90, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
     pass
   recordbtn2.pressed(recordbtn2_pressed)
   
   def recordbtn3_pressed():
-    mic.record2file(5, 'item3.wav')
+    global recordbtn3
+    mic.record2file(1, 'item3.wav')
     recordbtn3 = M5Btn(text='Recorded', x=110, y=130, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
     pass
   recordbtn3.pressed(recordbtn3_pressed)
   
   def recordbtn4_pressed():
-    mic.record2file(5, 'item4.wav')
+    global recordbtn4
+    mic.record2file(, 'item4.wav')
     recordbtn4 = M5Btn(text='Recorded', x=110, y=170, w=80, h=30, bg_c=0xc3bf40, text_c=0x000000, font=FONT_MONT_14, parent=None)
     pass
   recordbtn4.pressed(recordbtn4_pressed)
